@@ -57,9 +57,6 @@ If you need features of `Newtonsoft.Json` that aren't supported in `System.Text.
 
 MessagePack serialization can be configured by providing a delegate to the <xref:Microsoft.Extensions.DependencyInjection.MsgPackProtocolDependencyInjectionExtensions.AddMessagePackProtocol%2A> call. See [MessagePack in SignalR](xref:signalr/messagepackhubprotocol) for more details.
 
-> [!NOTE]
-> It's not possible to configure MessagePack serialization in the JavaScript client at this time.
-
 ## Configure server options
 
 The following table describes options for configuring SignalR hubs:
